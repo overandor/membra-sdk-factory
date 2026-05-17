@@ -17,8 +17,8 @@ from dataclasses import dataclass, asdict, field
 from typing import Any, Dict, List, Optional
 
 
-MEMBRA_NETWORK = "MEMBRA"
-MEMBRA_DEFAULT_RPC = "https://api.devnet.solana.com"
+MEMBRA_NETWORK = "{{NETWORK}}"
+MEMBRA_DEFAULT_RPC = "{{RPC}}"
 
 
 def sha256_text(value: str) -> str:

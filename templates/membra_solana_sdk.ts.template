@@ -12,9 +12,9 @@ import {
   TransactionInstruction
 } from "@solana/web3.js";
 
-export const MEMBRA_DEFAULT_RPC = "https://api.devnet.solana.com";
-export const MEMBRA_MIR_PROGRAM_ID = new PublicKey("REPLACE_WITH_MEMBRA_MIR_PROGRAM_ID");
-export const MEMBRA_GATEWAY_PROGRAM_ID = new PublicKey("REPLACE_WITH_GATEWAY_PROGRAM_ID");
+export const MEMBRA_DEFAULT_RPC = "{{RPC}}";
+export const MEMBRA_MIR_PROGRAM_ID = new PublicKey("{{MIR_PROGRAM}}");
+export const MEMBRA_GATEWAY_PROGRAM_ID = new PublicKey("{{GATEWAY_PROGRAM}}");
 
 export type PolicyTier = "Low" | "Medium" | "High" | "Critical";
 
